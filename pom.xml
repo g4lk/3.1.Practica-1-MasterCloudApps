@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>es.codeurjc.mca.cloud.prac_1.ordinaria</groupId>
-	<artifactId>practica_1_cloud_ordinaria_2021</artifactId>
+	<artifactId>pedro.david.parla.francisco.robles</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Práctica 1 Cloud - Convocatoria Extraordinaria</name>
 	<description>Demo project for Spring Boot</description>
@@ -80,6 +80,11 @@
 			<artifactId>rest-assured</artifactId>
 			<version>3.0.6</version>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+	    	<groupId>com.amazonaws</groupId>
+			<artifactId>aws-java-sdk-s3</artifactId>
+			<version>1.11.969</version>
 		</dependency>
 	</dependencies>
 
